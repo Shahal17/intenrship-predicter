@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local datasets and generated artifacts
+data/*.csv
+data/*.xlsx
+data/*.zip
+models/*.joblib
+models/*.pkl
+models/*.json
+results/*.csv
+results/*.json
+
+# Keep folders in Git
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
